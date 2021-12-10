@@ -1,0 +1,17 @@
+{
+	"name": "JSON-validator-question",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"start": "node run.js",
+		"test": "mocha --reporter mocha-multi-reporters --reporter-options configFile=config.json --recursive"
+	},
+	"dependencies": {
+		"debug": "~2.6.9"
+	},
+	"devDependencies": {
+		"mocha": "^9.1.0",
+		"mocha-junit-reporter": "2.0.0",
+		"mocha-multi-reporters": "1.5.1"
+	}
+}
